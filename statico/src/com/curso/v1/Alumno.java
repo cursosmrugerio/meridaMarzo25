@@ -1,12 +1,12 @@
 package com.curso.v1;
 
-public class Estudiante {
+public class Alumno {
 	
 	private String nombre;
 	private int edad;
 	private static int contador; 
 	
-	public Estudiante(String nombre, int edad) {
+	public Alumno(String nombre, int edad) {
 		this.nombre = nombre;
 		this.edad = edad;
 		contador++;
