@@ -25,11 +25,13 @@ public class Principal {
 		Empleado emp3 = new Empleado("Andronico",17,60.50);
 		Empleado emp4 = new Empleado("Filologo",25,40.50);
 		Empleado emp5 = new Empleado("Epeneto",17,75.50);
+		Empleado emp6 = new Empleado("Andronico",17,60.50);
+		
 		Empleado[] emps = {emp1,emp2,emp3,emp4,emp5};
 		
 		List<Empleado> lista = Arrays.asList(emps);
 		
-		Set<Empleado> treeSetEmpleado = new TreeSet<Empleado>(comparator);
+		Set<Empleado> treeSetEmpleado = new TreeSet<>(comparator);
 		treeSetEmpleado.addAll(lista);
 		
 		treeSetEmpleado.forEach(System.out::println);
