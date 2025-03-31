@@ -6,7 +6,8 @@ public class Cliente {
 	int edad; //0
 	
 	Cliente() {
-		//this("Sin nombre",0);
+		//System.out.println("Paso por Constructor");
+		this("Sin nombre",0);
 	}
 	
 	Cliente(String nombre) {
